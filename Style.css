@@ -1,0 +1,182 @@
+body{
+    font-family: 'Roboto',sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: 0;
+    text-decoration: none;
+}
+.mainContainer{
+    display: flex;
+    /* border: 2px solid red; */
+}
+.Dashboard h1{
+font-weight: 400;
+}
+.Dashboard p{
+    color: gray;
+}
+.sidebar{
+    width: 15vw;
+    height: 100%;
+    background-color: rgb(84, 84, 228);
+}
+.logo{
+width: 80%;
+padding: 1vw 0vw;
+}
+.sidebar header{
+    font-size: 22px;
+    color:white;
+    text-align: center;
+    line-height: 70px;
+    background:white;
+    user-select: none;
+}
+.sidebar ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: white;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top:1px solid rgb(255,255, 255,.1);
+    border-bottom: 1px solid black;
+    transition: .4s;
+}
+ul li:hover{
+    background-color: rgba(255, 255, 0, 0.783);
+}
+ul li:hover a{
+    padding-left:50px;
+}
+.sidebar ul a i{
+    margin-right: 16px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.container2{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+    width: 20vw;
+}
+.layerone{
+    /* border: 3px solid orange; */
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.right{
+    padding: 1vw;
+    background-color:rgb(248, 250, 252);
+}
+.Today{
+    display: block;
+    border: 1px solid rgb(74, 74, 74);
+    width:8vw;
+    font-weight: 400;
+    padding: 0.2vw 1vw;
+    font-size: 1.2vw;
+    height: 3vw;
+    background-color: transparent;
+    border-radius: 10px;
+    color: rgb(39, 38, 38);
+}
+.filter{
+    display: block;
+    border: 1px solid rgb(74, 74, 74);
+    color: rgb(39, 38, 38);
+    font-weight: 400;
+    width:8vw;
+    height: 3vw;
+    padding: 0.2vw 1vw;
+    font-size: 1.2vw;
+    background-color: transparent;
+    border-radius: 10px;
+}
+.layer2{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1.5vw auto;
+    gap:10px;
+}
+.layer2divs{
+    box-shadow: 3px 3px 10px rgba(7, 7, 7, 0.21);
+    width: 15vw;
+    padding: 1.5vw;
+    border-radius: 10px;
+}
+.innerContainer{
+   
+    display: flex;
+    justify-content: space-between;
+    margin: 1vw auto 0vw;
+}
+.icons{
+    border: 2px solid green;
+    border-radius: 1vw;
+    background-color: rgb(0, 128, 0,0.1);
+    padding: 0.5vw;
+    color: green;
+    font-size: 0.8vw;
+
+}
+.lost{
+    border: 2px solid red;
+    border-radius: 1vw;
+    background-color:rgb(255, 0, 0,0.1);
+    padding: 0.5vw;
+    color:red;
+    font-size: 0.8vw;
+
+}
+.layer3{
+    display: flex;
+    justify-content: space-between;
+    padding: 0vw 1.5vw;
+}
+.layer3div{
+    box-shadow: 3px 3px 10px rgba(7, 7, 7, 0.137);
+  width: 46%;
+ padding: 1.5vw 1vw; 
+ border-radius: 10px;
+}
+.layer4{
+    box-shadow: 3px 3px 10px rgba(7, 7, 7, 0.18);
+    box-sizing: border-box;
+    margin: 2vw auto 0;
+    padding: 2vw;
+    width: 96%;
+}
+.viewreport{
+    border: none;
+    float: right;
+    padding: 0.5vw 1.3vw;
+    font-size: 1vw;
+    background-color: transparent;
+    /* border-color: lightgrey ; */
+    border: 2px solid grey;
+    border-radius: 5px;
+    color: gray;
+    clear: both;
+}
+.layer4heading{
+ font-size: 2vw;
+ font-weight: 600;   
+}
+.image{
+    width:100% ;
+}
+.month{
+    margin: 1vw;
+    display: flex;
+    gap:25px;
+}
